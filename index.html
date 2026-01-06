@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarju's Chicago Marathon Tracker</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Sarju's Chicago Marathon Tracker</h1>
+        </header>
+
+        <section class="blurb-section">
+            <div class="logo-container">
+                <img src="GCFDlogo.svg" alt="GCFD Logo">
+            </div>
+            <div class="blurb-text">
+                "I am running to support the Greater Chicago Food Depository. GCFD's goal is to end hunger by connecting
+                our neighbors with healthy food and advancing solutions that address the root causes of hunger."
+            </div>
+        </section>
+
+        <section class="progress-section">
+            <div class="progress-card">
+                <div class="progress-label">
+                    <span class="progress-title">Fundraising Progress</span>
+                    <span class="progress-stats" id="fundraising-stats">$0 / $2500</span>
+                </div>
+                <div class="progress-bar-outer">
+                    <div class="progress-bar-inner" id="fundraising-bar">
+                        <span class="running-man-icon">🏃</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="progress-card">
+                <div class="progress-label">
+                    <span class="progress-title">Training Mileage</span>
+                    <span class="progress-stats" id="mileage-stats">0 / 1000 miles</span>
+                </div>
+                <div class="progress-bar-outer">
+                    <div class="progress-bar-inner" id="mileage-bar">
+                        <span class="running-man-icon">🏃</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="countdown-photo-section">
+            <div class="countdown-card">
+                <h3>Race Day Countdown</h3>
+                <p>October 11, 2026</p>
+                <div class="countdown-timer" id="countdown">
+                    <!-- Timer values will be injected by JS -->
+                    <div class="time-unit">
+                        <span class="time-value" id="days">00</span>
+                        <span class="time-label">Days</span>
+                    </div>
+                    <div class="time-unit">
+                        <span class="time-value" id="hours">00</span>
+                        <span class="time-label">Hrs</span>
+                    </div>
+                    <div class="time-unit">
+                        <span class="time-value" id="minutes">00</span>
+                        <span class="time-label">Min</span>
+                    </div>
+                    <div class="time-unit">
+                        <span class="time-value" id="seconds">00</span>
+                        <span class="time-label">Sec</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo-card">
+                <img src="me.jpg" alt="Sarju">
+                <a href="#" id="donate-link" class="donate-btn" target="_blank">Donate Now</a>
+            </div>
+        </section>
+    </div>
+
+    <script src="constants.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
