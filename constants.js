@@ -3,7 +3,7 @@
 
 window.MARATHON_DATA = {
     fundraisingGoal: 2500,
-    fundraisingRaised: 350,
+    fundraisingRaised: 450,
     mileageGoal: 1000,
     mileageRan: 10,
     raceDate: "2026-10-11T08:00:00",
