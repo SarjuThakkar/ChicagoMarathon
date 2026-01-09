@@ -3,9 +3,9 @@
 
 window.MARATHON_DATA = {
     fundraisingGoal: 2500,
-    fundraisingRaised: 625,
+    fundraisingRaised: 715,
     mileageGoal: 1000,
-    mileageRan: 10,
+    mileageRan: 14,
     raceDate: "2026-10-11T08:00:00",
     fundraisingUrl: "https://www.classy.org/fundraiser/6888759"
 };
